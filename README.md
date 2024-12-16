@@ -8,4 +8,4 @@ Youtube Video Link: [Video](https://youtu.be/YOrXEItvBdw)
 
 APIs: [The CocktailDB](https://www.thecocktaildb.com/api.php)
 
-Contact Email: kristinchen1023@gmail.com
+Contact Email: kchen14@terpmail.umd.edu
