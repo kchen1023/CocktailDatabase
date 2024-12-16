@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Result</title>
+</head>
+
+<body style="border: solid 10px OliveDrab; padding: 15px; background-color:WhiteSmoke">
+    <div>
+        <h1 style="display: inline; color:OliveDrab">Cocktail Database</h1> |
+        <a href="/">Home</a> |
+        <a href="/allCocktails">All Cocktails</a> |
+        <a href="/favorites">My Favorites</a>
+    </div>
+
+    <br>
+
+    <h2><%= drinkName %></h2>
+    <form action="/favorites" method="post">
+        <input type="hidden" name="id" value="<%= drinkId %>">
+        <input type="hidden" name="name" value="<%= drinkName %>">
+        <input type="submit" value="Add To Favorites">
+    </form>
+
+    <br>
+    <br>
+
+    <img src="<%= drinkThumbnail %>" style="width: 200px; height: 300px">
+
+    <br>
+
+    <strong>Ingredients:</strong>
+    <%= drinkIngredients %>
+
+    <br>
+
+    <strong>Instructions:</strong>
+    <%= drinkInstructions %>
+    
+</body>
+
+</html>
