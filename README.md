@@ -1,4 +1,4 @@
-Kristin Chen
+I'm not an alcohol fan at all, but I do enjoy a nice long island every so often :3
 
 App Description: Users can look up cocktails by name or ingredient (future plan: will be able to add certain cocktails to their favorites). Users can also look through all of the cocktails available in the database.
 
