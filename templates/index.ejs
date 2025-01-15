@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Homepage</title>
+</head>
+
+<body style="border: solid 10px OliveDrab; padding: 15px; background-color:WhiteSmoke">
+    <div>
+        <h1 style="display: inline; color:OliveDrab">Cocktail Database</h1> |
+        <a href="/">Home</a> |
+        <a href="/allCocktails">All Cocktails</a>
+    </div>
+
+    <br>
+
+    <form action="/search/name" method="get">
+        <fieldset>
+            <legend>Search By Cocktail Name:</legend>
+            <input type="text" placeholder="Enter Cocktail Name" name="name">
+            <input type="submit" value="Search">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form action="/search/ingredient" method="get">
+        <fieldset>
+            <legend>Search by ingredient:</legend>
+            <input type="text" placeholder="Enter Ingredient (1)" name="ingredient">
+            <input type="submit" value="Search">
+        </fieldset>
+    </form>
+
+</body>
+
+
+</html>

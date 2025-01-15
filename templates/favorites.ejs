@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Favorites</title>
+</head>
+
+<body style="border: solid 10px OliveDrab; padding: 15px; background-color:WhiteSmoke">
+    <div>
+        <h1 style="display: inline; color:OliveDrab">Cocktail Database</h1> |
+        <a href="/">Home</a> |
+        <a href="/allCocktails">All Cocktails</a> |
+        <a href="/favorites">My Favorites</a>
+    </div>
+
+    <br>
+
+    <h2>Favorites</h2>
+
+    <ul">
+        <% results.forEach(result => { %>
+            <li>
+                <a href="/cocktail/<%= result.id %>"><%= result.name %></a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+
+</html>
